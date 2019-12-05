@@ -12,12 +12,15 @@ Please refer to the docs of the [REST](offer-api/README.md) API for details.
 
 ## What you need
 
-To access the API, you will need the following credentails:
+To **access the API**, you will need the following credentails:
 
 - To use the Master Data API, you need an `api-key`.
 - To use the Offer API, you need `username` and `password`.
 
-Please refer to your sales contact to obtain these credentials, or contact us at info@alpinresorts.com.
+In order to activate **referer tracking** when linking to ALPINRESORTS.com, make sure that a proper Referer configuration
+has been set up for you in the ALPINRESORTS.com system.
+
+Please refer to your sales contact to obtain these credentials and the Referer setup, or contact us at info@alpinresorts.com.
 
 ## How you start
 
