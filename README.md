@@ -42,7 +42,8 @@ the specifics of their booking and proceed to the shop's products and prices.
 
 ### Use Case: Get offers and prices for a customer's specific set of booking parameters
 
-If you can provide some details of your customer's travel intentions, you can get a specific offer for these booking parameters:  
+If you can provide some details of your customer's travel intentions, you can get a specific offer for these booking parameters
+through the [Offer-API](offer-api/README.md):  
 
 - Authenticate through the [Auth-API](offer-api/docs/Api/AuthApi.md).
 - Make a request to the [Town-API](offer-api/docs/Api/RequestTownApi.md) or the [Shop-API](offer-api/docs/Api/RequestShopApi.md)
@@ -52,7 +53,8 @@ If you can provide some details of your customer's travel intentions, you can ge
 
 ### Use Case: Make a booking for an offer
 
-If you provide your own checkout process and want to make a booking on behalf of your customer, you need these steps:
+If you provide your own checkout process and want to make a booking on behalf of your customer, you can do this through
+the [Offer-API](offer-api/README.md) by performing these steps:
 
 - Retrieve an offer for the customer's booking parameters, as described above.
 - Make a request to the [Booking-API](offer-api/docs/Api/BookingApi.md), including the offer reference and the booking customer's details.
