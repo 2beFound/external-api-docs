@@ -1,4 +1,4 @@
-# Request
+# RequestTown
 
 The request that is expected to be sent to the [**Town-Request-API**](../Api/RequestTownApi.md).
 

@@ -4,7 +4,7 @@ All URIs are relative to *https://www.alpinresorts.com*
 
  HTTP request | Description
  ------------- | -------------
- **GET** /api/offer/login_check | Retrieves an authentication token
+ **POST** /api/offer/login_check | Retrieves an authentication token
 
 ### Parameters
 

@@ -10,7 +10,7 @@ HTTP request | Description
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **request** | [**Request**](../Model/RequestTown.md)| Data transfer object containing the offer parameters |
+ **request** | [**RequestTown**](../Model/RequestTown.md)| Data transfer object containing the offer parameters |
 
 ### Return type
 

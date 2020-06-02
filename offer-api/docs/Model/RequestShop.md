@@ -1,4 +1,4 @@
-# Request
+# RequestShop
 
 The request that is expected to be sent to the [**Shop-Request-API**](../Api/RequestShopApi.md).
 
