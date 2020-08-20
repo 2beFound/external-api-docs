@@ -1,6 +1,6 @@
 # Implementation scenarios
 
-This section is inteded to give a graphical overview of the various integration approaches for the ALPINRESORTS.com API. 
+This section is intended to give a graphical overview of the various integration approaches for the ALPINRESORTS.com API. 
 
 ## Referer Partnership
 
@@ -54,11 +54,11 @@ An example URL would be
 ## Get offers and prices for a customer's specific set of booking parameters
 
 If the partner can provide some details of your customer's travel intentions, a specific offer for these booking parameters
-can be obtained through the [Offer-API](offer-api/README.md).
+can be obtained through the [Offer-API](../offer-api/README.md).
 
-- Authenticate through the [Auth-API](offer-api/docs/Api/AuthApi.md).
-- Make a request to the [Town-API](offer-api/docs/Api/RequestTownApi.md) or the [Shop-API](offer-api/docs/Api/RequestShopApi.md)
-  to get an [Offer](offer-api/docs/Model/Offer.md).
+- Authenticate through the [Auth-API](../offer-api/docs/Api/AuthApi.md).
+- Make a request to the [Town-API](../offer-api/docs/Api/RequestTownApi.md) or the [Shop-API](../offer-api/docs/Api/RequestShopApi.md)
+  to get an [Offer](../offer-api/docs/Model/Offer.md).
 - You can then present the offer to the customer and allow them to proceed to the ALPINRESORTS.com booking engine in one 
   of the ways described in this described in this section. 
 
@@ -94,12 +94,12 @@ Name | Type | Description | Notes
 ### Use Case: Make a booking for an offer
 
 If the partner provides their own checkout process, the booking can be made on behalf of your customer through
-the [Offer-API](offer-api/README.md).
+the [Offer-API](../offer-api/README.md).
  
 ![Entire Booking Through API](5-full-api-booking.png)
 
 It requires performing these steps:
 
 - Retrieve an offer for the customer's booking parameters, as described above.
-- Make a request to the [Booking-API](offer-api/docs/Api/BookingApi.md), including the offer reference and the booking customer's details.
+- Make a request to the [Booking-API](../offer-api/docs/Api/BookingApi.md), including the offer reference and the booking customer's details.
 - Retrieve the booking metadata from the resulting status link and inform your customer about the booking details.
