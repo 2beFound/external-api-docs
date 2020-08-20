@@ -10,12 +10,12 @@ link to ALPINRESORTS.com and the customer can complete a booking through the ALP
 
 ![Town-Level Referer Partnership](1-refer-to-town.png)
 
-If you want to create links to ALPINRESORTS.com as part of a link partnership with referer tracking, you can choose
+If links to ALPINRESORTS.com should be created as part of a link partnership with referer tracking, the partner can choose
 one of the approaches outlined in this section.
 
 ### Create links to landing pages for towns
  
-The URLs to the town pages can be found in the master data. If you link directly to such a URL, the `Referer` header of
+The URLs to the town pages can be found in the master data. When linked directly to such a URL, the `Referer` header of
 the customer's browser will indicate the referral to the ALPINRESORTS.com website, and is tracked properly. If, for some
 reason, customers might arrive with no `Referer`-header in the partner's use case, a `?referer=[domain]` GET-parameter 
 can be appended to the URL. Please ensure that the partner's `[domain]` is also registered in the ALPINRESORTS.com 
@@ -53,18 +53,18 @@ An example URL would be
 
 ## Get offers and prices for a customer's specific set of booking parameters
 
-If the partner can provide some details of your customer's travel intentions, a specific offer for these booking parameters
+If the partner can provide some details of the customer's travel intentions, a specific offer for these booking parameters
 can be obtained through the [Offer-API](../offer-api/README.md).
 
 - Authenticate through the [Auth-API](../offer-api/docs/Api/AuthApi.md).
 - Make a request to the [Town-API](../offer-api/docs/Api/RequestTownApi.md) or the [Shop-API](../offer-api/docs/Api/RequestShopApi.md)
   to get an [Offer](../offer-api/docs/Model/Offer.md).
-- You can then present the offer to the customer and allow them to proceed to the ALPINRESORTS.com booking engine in one 
-  of the ways described in this described in this section. 
+- Present the offer to the customer and allow them to proceed to the ALPINRESORTS.com booking engine in one 
+  of the ways described in this section. 
 
 ### Deeplink to checkout page
 
-If the partner obtained an offer, you can direct the customer to the ALPINRESORTS.com checkout page to complete registration there.
+If the partner obtained an offer, the customer can be directed to the ALPINRESORTS.com checkout page to complete registration there.
 
 ![Deeplink to checkout](3-offer-to-checkout.png)
 
@@ -93,7 +93,7 @@ Name | Type | Description | Notes
 
 ### Use Case: Make a booking for an offer
 
-If the partner provides their own checkout process, the booking can be made on behalf of your customer through
+If the partner provides their own checkout process, the booking can be made on behalf of the customer through
 the [Offer-API](../offer-api/README.md).
  
 ![Entire Booking Through API](5-full-api-booking.png)
@@ -102,4 +102,4 @@ It requires performing these steps:
 
 - Retrieve an offer for the customer's booking parameters, as described above.
 - Make a request to the [Booking-API](../offer-api/docs/Api/BookingApi.md), including the offer reference and the booking customer's details.
-- Retrieve the booking metadata from the resulting status link and inform your customer about the booking details.
+- Retrieve the booking metadata from the resulting status link and inform the customer about the booking details.
