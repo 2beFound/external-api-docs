@@ -68,11 +68,12 @@ If the partner obtained an offer, the customer can be directed to the ALPINRESOR
 
 ![Deeplink to checkout](3-offer-to-checkout.png)
 
-To do this, set a link to `https://www.alpinresorts.com/de/payment/checkout` with the following GET parameter:
+To do this, set a link to `https://www.alpinresorts.com/{language}/service/payment/checkout/offer/{offerUUID}` with the following parameter:
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **offerUUID** | **string** | UUID of the offer |
+**language** | **string** | 2 digit representation of the customers language | de/en/fr/it/nl/dk/pl/cs/sk currenly available.
 
 ### Deeplink to payment page
 
@@ -81,15 +82,15 @@ directed straight to the ALPINRESORTS.com payment step.
 
 ![Deeplink to payment](4-offer-to-payment.png)
 
-To do this, set a link to `https://www.alpinresorts.com/de/payment/checkout` with the following GET parameters:
+To do this, set a link to `https://www.alpinresorts.com/{language}/service/payment/checkout/offer/{offerUUID}` with the following GET parameters:
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**offerUUID** | **string** | UUID of the offer |
+**firstname** | **string** | The firstname of the customer |
+**surname** | **string** | The surname of a customer |
 **email** | **string** | The e-mail address of the customer | 
-**name** | **string** | The full name of the customer |
-**countryCode** | **string** | ISO 3166-1 Alpha-2 country code of the customer's residence |
-**phoneNumber** | **string** | Telephone number of the customer, including leading dialing code (e.g. "+44123454"). | [optional]
+**customer_country** | **string** | ISO 3166-1 Alpha-2 country code of the customer's residence | [optional]
+**phone** | **string** | Telephone number of the customer, including leading dialing code (e.g. "+44123454"). | [optional]
 
 ### Use Case: Make a booking for an offer
 
