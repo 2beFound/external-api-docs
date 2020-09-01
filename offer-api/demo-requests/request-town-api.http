@@ -26,6 +26,7 @@ Authorization: Bearer IA16S74Jm9llyseWWePfKGg1icGYIuWV7S30.XnDTQcDDjba8yO8ss8Owb
 #    "total": 18876,
 #    "shopId": 136,
 #    "currency": "EUR",
+#    "checkoutLink": "https://www.alpinresorts.com/en/service/payment/checkout/offer/abdef94a-11fd-4196-1150-3caffe624c11"
 #    "products": [
 #      {
 #        "productName": "Champion (5*) Ski",
