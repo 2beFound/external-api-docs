@@ -11,3 +11,4 @@ Name | Type | Description | Notes
 **shop_id** | **int** | The ID of the shop according to the master data export | 
 **currency** | **string** | Currency of the given total. |
 **products** | [**OfferProducts[]**](OfferProducts.md) |  |  
+**checkoutLink** | **string** | A deeplink into the payment checkout | see scenario [**Deeplink**](../../../scenarios/README.md#deeplink-to-checkout-page).
