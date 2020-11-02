@@ -47,6 +47,9 @@ western longitude.
 - `latitude`: larger than 0 -> northern latitude, less than 0 ->
 southern latitude.
 
+`is_api_bookable` indicates whether this shop can be booked through the [booking API](../../offer-api/README.md). 
+`0` means that the shop can not be booked through the API, but it can still be linked to (using a referer link).
+
 `offer` is a sample offer from our website. The reference time is stated in the `start_date` and `end_date` attributes. `discount` is the discount percentage, `price` is the discounted ALPINRESORTS.com online price.
 
 The remaining tags in `shop` should be self-explanatory.

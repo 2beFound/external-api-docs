@@ -56,6 +56,9 @@ southern latitude.
 
 `link_to_small_shop_image`/`link_to_big_shop_image`: URL of the shop's main image on ALPINRESORTS.com, in its two available sizes.
 
+`is_api_bookable`: Indicates whether this shop can be booked through the [booking API](../../offer-api/README.md).
+`0` means that the shop can not be booked through the API, but it can still be linked to (using a referer link).
+
 Furthermore, there is a sample offer from our website included in every line: 
 - `sample_discount_period`: The reference timeframe during which the offer is valid.
 - `sample_discount_percentage`: The discount percentage offered on ALPINRESORTS.com, in float format. E.g. 0.10 is for a 10% discount.
