@@ -1,6 +1,6 @@
-# Booking Response
+# OrderSummaries Response
 
-The result of a request to the [**Booking-API**](../Api/BookingApi.md).
+The result of a request to the [**Order-API**](../Api/OrderApi.md).
 
 ## Properties
 

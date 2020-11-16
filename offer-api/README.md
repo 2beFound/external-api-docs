@@ -75,3 +75,7 @@ ALPINRESORTS.com will then perform the booking. You can retrieve all necessary i
 Offer Status URL returned from the API, and can inform your customer about the details. 
 
 The booking will be charged to you and settled at a later time according to your contract.
+
+## List completed Booking
+
+In order to retrieve a list of previously completed bookings through your API-Integration you can use the [Order-API](docs/Api/OrderApi.md).

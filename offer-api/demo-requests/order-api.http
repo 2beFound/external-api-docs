@@ -1,0 +1,44 @@
+GET https://www.alpinresorts.com/api/order/order_summaries?page=1
+Content-Type: application/json
+Authorization: Bearer IA16S74Jm9llyseWWePfKGg1icGYIuWV7S30.XnDTQcDDjba8yO8ss8OwbN5wPQc9mKKH0MKL3PlV53cV5JHx4PjxTV9iM4DqkahATUod7mPP9gQn6qePtpFMmewgzFT2pcvX2OjzDyeamWYRUdQeIWnO7E1Sh3Zioz8DEgbCQ4SaFtcxUne6Iq4RTbr5gGgF9V3PW1bKmm75igQdAsieTaTSOZZnJRqeL8wLrF1gKo1.nE0b8RLbZlGUuCOFz9jqITOqagPTKNsFA2Gaw2aueSmpfJaR5amWu1W8xL57KOBqGMG6dVgi6QUd4VCIn7cFW4V2L23qqaK2KMb-hEVMoJKT3j6QMJw5vD-CU16kzG93B2yOL8eBCmeQ0O95TVEWhtE9EOFHl_Pry5HrrGJOwxWBo3ULUyfVmBjoyZUBwaHjlUWhWsmTYpey4WPi4GPtE1uAGdIHaNXVQC1ww8IGKkVPx7CIeTgBqglGM96yXBVWbSXsIPcxgmm57NOq08j1TqF2xYSr2FHIesJx6ZH3Pe8k-aJbBSSLiDQa1QvSRLTmtjSVG12hdIXVlgXixm2JJM5WmJiD5g2CnXJi6mWyySCO9snVFsrRfvx9AUt2iOcI6Gwf9fGOEPGG0i4N-OuG3UxT82vNHNURmW7BCjhQp7riHobJP5Fw2Ntco6TtEXxo8pjMk1L0wFmlucNup1eUz0JBOOdB7PBI5cFWpAD3YV2ZyHkjA00j_jX6cP6HNgWI2mJgoNNc2yhHZ15ADU9ks4RnmK5SvCgHGHm190NJvkYaEMUfgdIQPVFkgF9vAWWkSh2yQGaVJOpb1PjmlkVoWlb7-Ut8TNykunYX9rkx77KG7uAgskwA3wxdvQSMfCAqNnKBhEE4fZ7Rtq1TolsCJhUNvUkzXXcnfk9lBmszIvG
+
+
+###########################
+### Sample Response
+#HTTP/1.1 200 OK
+#[
+#  {
+#    "orderId": 2260672,
+#    "customerCountry": "AT",
+#    "customerCulture": "en",
+#    "customerCurrencyCode": "EUR",
+#    "countryCode": "AT",
+#    "isSkihireItemPresent": true,
+#    "isSkihireAddonPresent": true,
+#    "isCancellationInsuranceItemPresent": false,
+#    "isInsuranceItemPresent": false,
+#    "isInsurancePlusItemPresent": false,
+#    "startDate": "2020-12-24T00:00:00+00:00",
+#    "endDate": "2020-12-31T00:00:00+00:00",
+#    "onlineTurnover": 16500,
+#    "turnoverCurrency": "EUR",
+#    "nameAbbreviated": "Reinhard D."
+#  },
+#  {
+#    "orderId": 2260678,
+#    "customerCountry": "FR",
+#    "customerCulture": "fr",
+#    "customerCurrencyCode": "CHF",
+#    "countryCode": "FR",
+#    "isSkihireItemPresent": true,
+#    "isSkihireAddonPresent": true,
+#    "isCancellationInsuranceItemPresent": false,
+#    "isInsuranceItemPresent": false,
+#    "isInsurancePlusItemPresent": false,
+#    "startDate": "2021-02-12T00:00:00+00:00",
+#    "endDate": "2021-02-14T00:00:00+00:00",
+#    "onlineTurnover": 21378,
+#    "turnoverCurrency": "EUR",
+#    "nameAbbreviated": "Vincent V."
+#  }
+]
