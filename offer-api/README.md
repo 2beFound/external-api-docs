@@ -76,6 +76,6 @@ Offer Status URL returned from the API, and can inform your customer about the d
 
 The booking will be charged to you and settled at a later time according to your contract.
 
-## List completed Booking
+## List completed Bookings
 
 In order to retrieve a list of previously completed bookings through your API-Integration you can use the [Order-API](docs/Api/OrderApi.md).
