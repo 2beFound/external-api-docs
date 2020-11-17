@@ -48,6 +48,11 @@ the following values must be chosen:
 - French (fr): `fr/location-ski`
 - Italian (it): `it/noleggio-ski`
 - Dutch (nl): `nl/skiverhuur`
+- Slovak (sk): `sk/pozicovna-lyzi`
+- Čeština (cs): `cs/pujcovna-lyzi`
+- Polski (pl): `pl/wypozyczalnia-nart`
+- Español (es): `es/alquiler-de-esquis`
+- Dansk (da): `da/skileje`
 
 The following GET-parameters can be appended to populate the customer data when entering the product selection:
 

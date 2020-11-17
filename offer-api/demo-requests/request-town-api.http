@@ -22,31 +22,149 @@ Authorization: Bearer IA16S74Jm9llyseWWePfKGg1icGYIuWV7S30.XnDTQcDDjba8yO8ss8Owb
 #
 #[
 #  {
-#    "id": "abdef94a-11fd-4196-1150-3caffe624c11",
-#    "total": 18876,
+#    "id": "57f9ba81-e735-44f7-9238-13ea9247d85d",
+#    "total": 43864,
 #    "shopId": 136,
 #    "currency": "EUR",
-#    "checkoutLink": "https://www.alpinresorts.com/en/service/payment/checkout/offer/abdef94a-11fd-4196-1150-3caffe624c11"
+#    "startDate": "2020-12-24",
+#    "endDate": "2020-12-31",
+#    "distance": null,
 #    "products": [
 #      {
 #        "productName": "Champion (5*) Ski",
 #        "ageCategory": "child",
-#        "price": 2652
+#        "imagePath": "elan-maxx-large.png",
+#        "price": 2720,
+#        "addons": [
+#          {
+#            "name": "boots",
+#            "definitionId": 1,
+#            "price": 1440,
+#            "imagePath": "/assets/images/icon-boots.png"
+#          },
+#          {
+#            "name": "helmet",
+#            "definitionId": 2,
+#            "price": 800,
+#            "imagePath": "/assets/images/icon-helmet.png"
+#          },
+#          {
+#            "name": "model_change",
+#            "definitionId": 5,
+#            "price": 0,
+#            "imagePath": "/assets/images/icon-model_change.png"
+#          },
+#          {
+#            "name": "insurance",
+#            "definitionId": 3,
+#            "price": 408,
+#            "imagePath": "/assets/images/icon-insurance.png"
+#          },
+#          {
+#            "name": "depot",
+#            "definitionId": 4,
+#            "price": 0,
+#            "imagePath": "/assets/images/icon-depot.png"
+#          },
+#          {
+#            "name": "priority_checkin",
+#            "definitionId": 7,
+#            "price": 800,
+#            "imagePath": "/assets/images/icon-priority_checkin.png"
+#          }
+#        ]
 #      },
 #      {
-#        "productName": "Red\/Silver (4*) Ski",
+#        "productName": "Red/Silver (4*) Ski",
 #        "ageCategory": "adult",
-#        "price": 8112
+#        "imagePath": "blizzard-powerrtx-large.png",
+#        "price": 8320,
+#        "addons": [
+#          {
+#            "name": "boots",
+#            "definitionId": 1,
+#            "price": 5280,
+#            "imagePath": "/assets/images/icon-boots.png"
+#          },
+#          {
+#            "name": "helmet",
+#            "definitionId": 2,
+#            "price": 3200,
+#            "imagePath": "/assets/images/icon-helmet.png"
+#          },
+#          {
+#            "name": "model_change",
+#            "definitionId": 5,
+#            "price": 0,
+#            "imagePath": "/assets/images/icon-model_change.png"
+#          },
+#          {
+#            "name": "insurance",
+#            "definitionId": 3,
+#            "price": 1248,
+#            "imagePath": "/assets/images/icon-insurance.png"
+#          },
+#          {
+#            "name": "depot",
+#            "definitionId": 4,
+#            "price": 0,
+#            "imagePath": "/assets/images/icon-depot.png"
+#          },
+#          {
+#            "name": "priority_checkin",
+#            "definitionId": 7,
+#            "price": 800,
+#            "imagePath": "/assets/images/icon-priority_checkin.png"
+#          }
+#        ]
 #      },
 #      {
-#        "productName": "Red\/Silver (4*) Ski",
+#        "productName": "Red/Silver (4*) Ski",
 #        "ageCategory": "adult",
-#        "price": 8112
+#        "imagePath": "blizzard-powerrtx-large.png",
+#        "price": 8320,
+#        "addons": [
+#          {
+#            "name": "boots",
+#            "definitionId": 1,
+#            "price": 5280,
+#            "imagePath": "/assets/images/icon-boots.png"
+#          },
+#          {
+#            "name": "helmet",
+#            "definitionId": 2,
+#            "price": 3200,
+#            "imagePath": "/assets/images/icon-helmet.png"
+#          },
+#          {
+#            "name": "model_change",
+#            "definitionId": 5,
+#            "price": 0,
+#            "imagePath": "/assets/images/icon-model_change.png"
+#          },
+#          {
+#            "name": "insurance",
+#            "definitionId": 3,
+#            "price": 1248,
+#            "imagePath": "/assets/images/icon-insurance.png"
+#          },
+#          {
+#            "name": "depot",
+#            "definitionId": 4,
+#            "price": 0,
+#            "imagePath": "/assets/images/icon-depot.png"
+#          },
+#          {
+#            "name": "priority_checkin",
+#            "definitionId": 7,
+#            "price": 800,
+#            "imagePath": "/assets/images/icon-priority_checkin.png"
+#          }
+#        ]
 #      }
-#    ]
-#  },
-#  {
-#   ...
+#    ],
+#    "language": "en",
+#    "checkoutLink": "https://beta.alpinresorts.com/en/service/payment/checkout/offer/57f9ba81-e735-44f7-9238-13ea9247d85d"
 #  }
 #]
 ###########################

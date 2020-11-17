@@ -19,28 +19,64 @@ Authorization: Bearer IA16S74Jm9llyseWWePfKGg1icGYIuWV7S30.XnDTQcDDjba8yO8ss8Owb
 ###########################
 ### Sample Response
 #HTTP/1.1 200 OK
-#{
-#  "id": "abcdefa9-71c1-4375-bf7b-dce8aef3cd49",
-#  "total": 18392,
-#  "shopId": 136,
-#  "currency": "EUR",
-#  "checkoutLink": "https://www.alpinresorts.com/en/service/payment/checkout/offer/abcdefa9-71c1-4375-bf7b-dce8aef3cd49"
-#  "products": [
-#    {
-#      "productName": "Champion (5*) Ski",
-#      "ageCategory": "child",
-#      "price": 2584
-#    },
-#    {
-#      "productName": "Red\/Silver (4*) Ski",
-#      "ageCategory": "adult",
-#      "price": 7904
-#    },
-#    {
-#      "productName": "Red\/Silver (4*) Ski",
-#      "ageCategory": "adult",
-#      "price": 7904
-#    }
-#  ]
-#}
+#
+#[
+#  {
+#    "id": "6e4897d4-5ab6-4021-95a2-b0b8f5cab9c6",
+#    "total": 43864,
+#    "shopId": 136,
+#    "currency": "EUR",
+#    "startDate": "2020-12-24",
+#    "endDate": "2020-12-31",
+#    "distance": null,
+#    "products": [
+#      {
+#        "productName": "Champion (5*) Ski",
+#        "ageCategory": "child",
+#        "imagePath": "elan-maxx-large.png",
+#        "price": 2720,
+#        "addons": [
+#          {
+#            "name": "boots",
+#            "definitionId": 1,
+#            "price": 1440,
+#            "imagePath": "/assets/images/icon-boots.png"
+#          },
+#          {
+#            "name": "helmet",
+#            "definitionId": 2,
+#            "price": 800,
+#            "imagePath": "/assets/images/icon-helmet.png"
+#          },
+#          {
+#            "name": "model_change",
+#            "definitionId": 5,
+#            "price": 0,
+#            "imagePath": "/assets/images/icon-model_change.png"
+#          },
+#          {
+#            "name": "insurance",
+#            "definitionId": 3,
+#            "price": 408,
+#            "imagePath": "/assets/images/icon-insurance.png"
+#          },
+#          {
+#            "name": "depot",
+#            "definitionId": 4,
+#            "price": 0,
+#            "imagePath": "/assets/images/icon-depot.png"
+#          },
+#          {
+#            "name": "priority_checkin",
+#            "definitionId": 7,
+#            "price": 800,
+#            "imagePath": "/assets/images/icon-priority_checkin.png"
+#          }
+#        ]
+#      }
+#    ],
+#    "language": "en",
+#    "checkoutLink": "https://beta.alpinresorts.com/en/service/payment/checkout/offer/470c1f67-cf07-4b42-8f1e-443f5105773b"
+#  }
+#]
 ###########################
